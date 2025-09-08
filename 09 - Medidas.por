@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -14,7 +14,7 @@ programa
 		leia(c)
 
 		areaQuadrado = a * a
-		areaTriangulo = (a * b) / 2
+		areaTriangulo = a * b / 2
 		areaTrapezio = ((a + b) * c) / 2
 
 		escreva("ÁREA DO QUADRADO = ", mat.arredondar(areaQuadrado, 4), "\n")
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 577; 
+ * @POSICAO-CURSOR = 301; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
