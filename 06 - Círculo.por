@@ -1,10 +1,10 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		real PI, raio, area
+		real raio, area
 
 		escreva("Digite o valor do raio do círculo: ")
 		leia(raio)
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 251; 
+ * @POSICAO-CURSOR = 77; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
