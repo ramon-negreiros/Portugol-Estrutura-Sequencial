@@ -13,7 +13,7 @@ programa
 
 		area = base * altura
 		perimetro = 2 * (base + altura)
-		diagonal = mat.raiz((base * base + altura * altura), 2)
+		diagonal = mat.raiz((mat.potencia(base, 2) + mat.potencia(altura, 2)), 2)		
 
 		escreva("ÁREA = ", area, "\n")
 		escreva("PERÍMETRO = ", perimetro, "\n")		
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 513; 
+ * @POSICAO-CURSOR = 384; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
